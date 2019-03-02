@@ -1,0 +1,21 @@
+{
+  "name": "data-struct-help",
+  "version": "1.0.0",
+  "description": "Небольшой помощник в определении структуры для организации данных",
+  "main": "index.js",
+  "repository": "git@github:bargamut/data-struct-help.git",
+  "author": "Paul Petrov <paul@bargamut.ru>",
+	"license": "MIT",
+	"scripts": {
+		"build": "webpack",
+		"start": "webpack-dev-server --open"
+	},
+	"engines": {
+		"node": "10"
+	},
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
